@@ -1,0 +1,21 @@
+Design Specs
+
+Headers/Body Copy: 
+- Raleway (Medium)
+- Line Height: 1.6
+- Paragraph size: 16px
+
+Buttons: 
+- Font: Roboto Slab (bold)
+- Border Radius: 3px
+- Border Bottom: 3px solid 
+- Border Color Bottom: Dark version of button color
+
+** "Not a member?" Text and Link should be in Roboto Slab
+
+Colors: 
+- Purple: #4C448C
+- Dark Purple: #362668
+- Blue: #28a9e1
+- Dark Blue: #0a90bf
+- Grey: #666666

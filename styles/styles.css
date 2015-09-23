@@ -1,0 +1,394 @@
+@-ms-viewport{
+ width: device-width;
+}
+iframe {
+	width: 800px;
+	height: 475px;
+}
+label {
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.go-blue {
+	background: #0a90bf;
+	padding: 10px;
+}
+.go-light-blue {
+	background: #28a9e1;
+	padding: 10px;
+}
+.inline {
+	display: inline-block;
+}
+.container-clear {
+	clear: both;
+}
+.side-margin {
+	margin-right: 100px;
+}
+.give-border {
+	background: white;
+	border: 1px solid #666666;
+}
+.hover-this:hover {
+	background: #28a9e1;
+	color: white;
+	cursor: pointer;
+}
+.hover-this-label:hover {
+	cursor: pointer;
+}
+.make-scroll {
+	height:  475px;
+	overflow: scroll;
+}
+.bottom-border {
+	border-bottom: 1px solid #666666;
+	margin-bottom: 10px;
+}
+.small-width {
+	width: 100px;
+}
+.padding-top {
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+.clear {
+	clear: left;
+}
+.side-margin {
+	margin-right: 20px;
+}
+.side-padding {
+	padding-right: 10px;
+	padding-left: 30px;
+}
+.side-padding-5 {
+	padding-right: 7px;
+	padding-left: 5px;
+}
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 80px;
+	width: 50px
+}
+.give-top-margin {
+	margin-top: 15px;
+}
+.add-more-height {
+	height: 220px;
+}
+body {
+	color: white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6;
+}
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label {
+    font-size:14px;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:17px;
+    height:17px;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+input[type="radio"] + label span #signUpRadio {
+    display:inline-block;
+    width:17px;
+    height:17px;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+input {
+	color: black;
+	font-size:16px;
+}
+textarea {
+	color: black;
+}
+input[type="radio"] + label span {
+	background-color:transparent;
+	border: 2px solid;
+}
+input[type="radio"] + label span #signUpRadio {
+	background-color:transparent;
+	border: 2px solid;
+}
+.change-label {
+	margin-bottom: -3px;
+}
+
+input[type="radio"]:checked + label span{
+	/*background-color: white;*/
+	border: 2px solid;
+}
+input[type="radio"]:checked + label span #signUpRadio {
+	/*background-color: white;*/
+	border: 2px solid;
+}
+
+.add-top-margin {
+	margin-top: 40px;
+}
+.add-bottom-margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bottom-margin {
+	margin-bottom: 15px;
+}
+.add-line {
+	height: 60px;
+	
+}
+.add-margin {
+	margin-right: auto;
+	margin-left: auto;
+}
+.well {
+	margin:47px;
+	background: white;
+}
+.half-height {
+	height: 300px;
+	color: white;
+	font-family: fantasy;
+	padding: 100px;
+	font-size: 80px;
+	background: #4F364C;
+}
+.nav-bar {
+	height: 50px;
+	color: white;
+	font-family: fantasy;
+	padding:5px;
+	font-size: 30px;
+	background: #4F364C;
+}
+.half-height-2 {
+	height: 100%;
+	background: #8F9E6F;
+	border-top: 5px solid #B1CF72;
+}
+.half-height-2-mod {
+	height: 730px;
+	background: #8F9E6F;
+	border-top: 5px solid #B1CF72;
+}
+.btn-blue {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	background: #28a9e1;
+	color: white;
+	border: 1px solid #28a9e1;
+	border-radius: 3px;
+	border-bottom: 3px solid #0a90bf;
+	padding: 10px;
+}
+.btn-blue:hover{
+	background: #0a90bf
+}
+.btn-forest-2 {
+	height: 35px;
+	width: 300px;
+	font-size: 17px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	background: #5E405F;
+	color: white;
+}
+.forest-mod {
+	width: 150px;
+}
+.input-style {
+	margin-bottom: 10px;
+	height: 40px;
+	width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.sizing {
+	width: 300px;
+	font-size: 15px;
+	padding: 20px;
+}
+.btn-change {
+	width: 300px;
+}
+.btn-log {
+	width: 100px;
+}
+.go-white {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+}
+a {
+	color: white;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28a9e1;
+}
+.make-white {
+	color: white;
+}
+.errors {
+	color: red;
+	font-weight: bold;
+}
+.success {
+	color: green;
+	font-weight: bold;
+}
+.med-font {
+	font-size: 18px;
+}
+.take-margin {
+	margin-top: -10px;
+}
+.nav-tabs {
+	color: #4F364C;
+	height: 50px;
+}
+.active {
+	color: #4F364C;
+	background: #4F364C;
+}
+.set-dimensions {
+	height:300px;
+	padding: 30px;
+}
+.set-width {
+	width: 155px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.add-padding {
+	padding: 10px;
+}
+.style-heading {
+	font-size: 20px;
+	width:300px;
+	margin-bottom: 15px;
+}
+.label-width {
+	width: 175px;
+}
+.make-inline {
+	display: inline-block;
+}
+select {
+  	font-family: 'Roboto Slab', serif;
+	height: 35px;
+	width: 200px;
+	color: #666666;
+	border-radius: 3px;
+}
+.change-font {
+	font-size:28px;
+}
+.add-height {
+	height: 150px;
+}
+body {
+	background: #EFEFEF url(./../assets/bg-image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white; 
+}
+.set-gray {
+	color: #666666;
+}
+.axe-padding {
+	padding-left: 9px;
+}
+.row {
+	width: 300px;
+}
+.div-width {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+.div-bottom-margin {
+	border-bottom: 1px solid #666666;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+.div-top-bottom {
+	border-bottom: 1px solid #666666;
+	border-top: 1px solid #666666;
+	width: 300px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+input[type="radio"]:checked + label span{
+	background-color: #666666;
+	border: 2px solid;
+}
+.turn-white {
+	background-color: white;
+}
+.set-border-color {
+	border-color: white;
+}
+#banner {
+	color: white;
+}
+@media(max-width: 856px){ 
+	#banner {
+		background: #EFEFEF url(./../assets/bg-image.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+	}
+	body {
+		background: #EFEFEF;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #666666;
+	}
+	a {
+		color: #666666;
+	}
+	iframe {
+		width: 350px;
+	}
+}
+/*@media(min-width: 856px){ 
+	#banner {
+		background: #EFEFEF;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+	}
+	body {
+		background: #EFEFEF;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #666666;
+	}
+	a {
+		color: #666666;
+	}
+	iframe {
+		width: 800px;
+	}
+}*/
